@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "script": {
+    "start": "node src/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@kanaflite/eslint-config": "workspace:*",
+    "@kanaflite/ts-config": "workspace:*",
+    "@tsconfig/next": "^2.0.6",
+    "@tsconfig/recommended": "^1.0.13",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "eslint": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "tsc --noEmit"
+  }
+}

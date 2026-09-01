@@ -1,0 +1,13 @@
+{
+  "name": "kanaflite",
+  "packageManager": "yarn@4.18.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

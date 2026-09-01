@@ -1,0 +1,12 @@
+{
+  "extends": "@kanaflite/ts-config/tsconfig.json",
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ]
+}

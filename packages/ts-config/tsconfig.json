@@ -1,0 +1,13 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "ES2022",
+    "strict": true,
+    "noEmit": true,
+
+    // below rules are disabled because reported by eslint
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowUnreachableCode": false
+  }
+}
